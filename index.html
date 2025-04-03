@@ -44,7 +44,7 @@
     <a href="#main" id="skip-to-content" class="a11y-hidden a11y-focusable">Skip to main content</a>
     <header>
       <div id="my-pic" class="has-shadow">
-        <img src="images/1.jpg" alt="" />
+        <img src="/images/1.jpg" alt="" />
       </div>
       <div class="titles">
                 <h1 class="title">Baraa Ali</h1>
@@ -54,25 +54,25 @@
         <ul>
           <li>
             <a href="/about">
-              <img src="images/person.svg" alt="" width="64" />
+              <img src="/images/person.svg" alt="" width="64" />
               <span>About</span>
             </a>
           </li>
           <li>
             <a href="/work">
-              <img src="images/work.svg" alt="" width="64" />
+              <img src="/images/work.svg" alt="" width="64" />
               <span>Work</span>
             </a>
           </li>
           <li>
             <a href="/projects">
-              <img src="images/projects.svg" alt="" width="64" />
+              <img src="/images/projects.svg" alt="" width="64" />
               <span>Projects</span>
             </a>
           </li>
           <li>
             <a href="/blog">
-              <img src="images/writing.svg" alt="" width="64" />
+              <img src="/images/writing.svg" alt="" width="64" />
               <span>Writing</span>
             </a>
           </li>
@@ -80,11 +80,11 @@
       </nav>
       <button id="change-mode" onclick="changeMode()">
         <span class="in-dark-mode">
-          <img src="images/icon-sun.svg" alt="" />
+          <img src="/images/icon-sun.svg" alt="" />
           <span class="a11y-hidden">Change to light mode</span>
         </span>
         <span class="in-light-mode">
-          <img src="images/icon-moon.svg" alt="" />
+          <img src="/images/icon-moon.svg" alt="" />
           <span class="a11y-hidden">Change to dark mode</span>
         </span>
       </button>
@@ -111,128 +111,59 @@
           often engage with the <a href="https://twitter.com/alvaro_montoro">Tech Twitter community</a>.
         </p>
       </section>
+      <nav class="main-nav2">
+        <section id="home-about2" class="container mini big" aria-describedby="home-about-title2">
+          <h2 id="home-about-title2">  My Skills</h2>
+        <ul>
+          <li>
+            <a href="/about">
+              <img src="https://img.icons8.com/?size=100&id=Lvn3jvfnl1XF&format=png&color=000000" alt="" width="64" />
+              <span>Haskell</span>
+            </a>
+          </li>
+          <li>
+            <a href="/work">
+              <img src="https://img.icons8.com/?size=100&id=13679&format=png&color=000000" alt="" width="64" />
+              <span>Java</span>
+            </a>
+          </li>
+          <li>
+            <a href="/projects">
+              <img src="https://img.icons8.com/?size=100&id=13441&format=png&color=000000" alt="" width="64" />
+              <span>Python</span>
+            </a>
+          </li>
+          <li>
+            <a href="/blog">
+              <img src="https://img.icons8.com/?size=100&id=40670&format=png&color=000000" alt="" width="64" />
+              <span>C</span>
+            </a>
+          </li>
+          <li>
+            <a href="/blog">
+              <img src="https://img.icons8.com/?size=100&id=O5Q5wsNh18Cw&format=png&color=8B0000" alt="" width="64" />
+              <span>Erlang</span>
+            </a>
+          </li>
+          <li>
+            <a href="/blog">
+              <img src="https://img.icons8.com/?size=100&id=f34HG4w9RjQk&format=png&color=228BE6" alt="" width="64" />
+              <span>MySql</span>
+            </a>
+          </li>
+          <li>
+            <a href="/blog">
+              <img src="https://img.icons8.com/?size=100&id=17842&format=png&color=000000" alt="" width="64" />
+              <span>Linux</span>
+            </a>
+          </li>
 
-      <!-- Icons from Flaticon by Smashicons, Freepik, Icongeek26, and Pixel-Perfect -->
-      <section id="home-projects" class="container" aria-describedby="project-section-title">
-        <h2 id="project-section-title" class="a11y-hidden">Summary of projects</h2>
-        <div class="buttons has-shadow" role="tablist" aria-label="Projects summary">
-          <button role="tab" aria-controls="panel-1" id="tab-1" title="CSS Projects">
-            <img src="/images/icon-css.svg" alt="" />
-            <span class="a11y-hidden">CSS projects</span>
-          </button>
-          <button role="tab" aria-controls="panel-2" id="tab-2" tabindex="-1" title="HTML Projects">
-            <img src="/images/icon-html.svg" alt="" loading="lazy" decoding="async" />
-            <span class="a11y-hidden">HTML projects</span>
-          </button>
-          <button role="tab" aria-controls="panel-3" id="tab-3" tabindex="-1" title="General Web Development Projects">
-            <img src="/images/icon-webdev.svg" alt="" loading="lazy" decoding="async" />
-            <span class="a11y-hidden">Web development projects</span>
-          </button>
-          <button role="tab" aria-controls="panel-4" id="tab-4" tabindex="-1" title="JavaScript Projects">
-            <img src="/images/icon-js.svg" alt="" loading="lazy" decoding="async" />
-            <span class="a11y-hidden">JavaScript projects</span>
-          </button>
-        </div>
-        <div class="panels has-shadow">
-          <div class="panel" id="panel-1" aria-labelledby="tab-1" role="tabpanel" aria-hidden="false" tabindex="0">
-            <a href="/projects#css-woman-2" id="panel-css-woman-1" title="Illustration of Woman">
-              <img src="/images/sscreenshot-css-woman-1.webp" alt="" loading="lazy" decoding="async" />
-              <span class="a11y-hidden">CSS Illustration of a woman with a punky-style</span>
-            </a>
-            <a href="/projects#project-almondcss" id="panel-css-almondcss" title="Screenshot of AlmondCSS demo">
-              <img src="/images/sscreenshot-almondcss.webp" alt="" loading="lazy" decoding="async" />
-              <span class="a11y-hidden">Screen capture of the CSS library Almond.CSS</span>
-            </a>
-            <a href="/projects#css-woman-1" id="panel-css-woman-2" title="Illustration of a Woman (2)">
-              <img src="/images/sscreenshot-css-woman-2.webp" alt="" loading="lazy" decoding="async" />
-              <span class="a11y-hidden">CSS illustration of a woman in basic colors</span>
-            </a>
-            <a href="/projects#css-la-muerte" id="panel-css-lamuerte" title="Illustration of La Catrina/La Muerte">
-              <img src="/images/sscreenshot-css-lamuerte.webp" alt="" loading="lazy" decoding="async" />
-              <span class="a11y-hidden">CSS illustration of la Catrina (La Muerte)</span>
-            </a>
-            <a href="/projects#css-game-snakes-ladders" id="panel-css-snakes" title="CSS Game of Snakes and Ladders">
-              <img src="/images/sscreenshot-css-snakes.webp" alt="" loading="lazy" decoding="async" />
-              <span class="a11y-hidden">CSS game of snakes and ladders</span>
-            </a>
-          </div>
-          <div class="panel" id="panel-2" aria-labelledby="tab-2" role="tabpanel" aria-hidden="true" tabindex="0" hidden="hidden">
-            <a href="/projects#project-wordcloud" id="panel-wordcloud" title="Wordcloud HTML">
-              <img src="/images/sscreenshot-wordcloud.webp" alt="" loading="lazy" decoding="async" />
-              <span class="a11y-hidden">Screenshot of a word cloud with web terms</span>
-            </a> 
-            <a href="/projects#css-game-snakes-ladders" id="panel-css-snakes-2" title="CSS Game of Snakes and Ladders">
-              <img src="/images/sscreenshot-css-snakes.webp" alt="" loading="lazy" decoding="async" />
-              <span class="a11y-hidden">CSS game of snakes and ladders</span>
-            </a>
-            <a href="/projects#css-king-and-fly" id="panel-king-fly" title="CSS Animation The King and the Fly">
-              <img src="/images/sscreenshot-king-fly.webp" alt="" loading="lazy" decoding="async" />
-              <span class="a11y-hidden">Animation the king and the fly</span>
-            </a>
-            <a href="/projects#project-loginform" id="panel-login" title="Interactive HTML login form">
-              <img src="/images/sscreenshot-login.webp" alt="" loading="lazy" decoding="async" />
-              <span class="a11y-hidden">Screenshot of interactive login form</span>
-            </a>
-          </div>
-          <div class="panel" id="panel-3" aria-labelledby="tab-3" role="tabpanel" aria-hidden="true" tabindex="0" hidden="hidden">
-            <a href="/projects#projects-textivities" id="panel-textivities" title="Textivities">
-              <img src="/images/sscreenshot-textivities.webp" alt="" loading="lazy" decoding="async" />
-              <span class="a11y-hidden">Textivities: an e-learning site</span>
-            </a>
-            <a href="/projects#tab-3" id="panel-kahme" title="Kahme">
-              <img src="/images/sscreenshot-kahme.webp" alt="" loading="lazy" decoding="async" />
-              <span class="a11y-hidden">KahMe: a URL reducer</span>
-            </a>
-            <a href="/projects#tab-2" id="panel-studiokah" title="Studio Kah">
-              <img src="/images/sscreenshot-studiokah.webp" alt="" loading="lazy" decoding="async" />
-              <span class="a11y-hidden">Studio Kah website</span>
-            </a>  
-          </div>
-          <div class="panel" id="panel-4" aria-labelledby="tab-4" role="tabpanel" aria-hidden="true" tabindex="0" hidden="hidden">
-            <a href="/projects#projects-imagecloud" id="panel-imagecloud" title="Imagecloud plugin">
-              <img src="/images/sscreenshot-imagecloud.webp" alt="" loading="lazy" decoding="async" />
-              <span class="a11y-hidden">ImageCloud a jQuery plugin</span>
-            </a>  
-            <a href="/projects#tab-4" id="panel-spellingabeja" title="Spelling Abeja">
-              <img src="/images/sscreenshot-spellingabeja.webp" alt="" loading="lazy" decoding="async"/>
-              <span class="a11y-hidden">Spelling Abeja: a React competition app</span>
-            </a>
-            <a href="/projects#projects-tourguide" id="panel-spotlightjs" title="SpotlightJS Module">
-              <img src="/images/sscreenshot-spotlightjs.webp" alt="" loading="lazy" decoding="async" />
-              <span class="a11y-hidden">SpotLightJS: a JS module</span>
-            </a>  
-            
-            <a href="/projects#projects-gamecontrollerjs" id="panel-gamepadjs" title="Spelling Abeja">
-              <img src="/images/sscreenshot-gamepad.webp" alt="" loading="lazy" decoding="async"/>
-              <span class="a11y-hidden">GameControllerJs a JavaScript library to manage gamepads</span>
-            </a>
-          </div>
-        </div>
-      </section>
+        </ul>
+      </nav>
 
-      <section id="home-blog">
-        <div class="container mini big">
-          <h2>Latest from the Blog</h2>
-                    <h3>My Career Through Job Interviews (and Vice Versa)</h3>
-          <div>
-                          <span class="tag tag-career">career</span> 
-                          <span class="tag tag-opinion">opinion</span> 
-                          <span class="tag tag-watercooler">watercooler</span> 
-                          <span class="tag tag-interview">interview</span> 
-                      </div>
-          <div>
-            <p>Technical interviews have transformed and evolved over the past few decades. From testing a candidates's knowledge to some esoteric behavioral questions, this is how interviews have changed through my professional career.</p>          </div>
-          <p class="align-right">
-            <a href="/blog/68073/my-career-through-interviews-and-vice-versa">
-              <span>
-                Continue reading
-                <span aria-hidden="true">&rsaquo;</span>
-                <span class="a11y-hidden">the article My Career Through Job Interviews (and Vice Versa)</span>
-              </span>
-            </a>
-          </p>
-        </div>
-      </section>
+
+
+    
 
       <section id="home-contact">
         <div class="container mini big">
@@ -299,10 +230,7 @@
             <path fill="#0288D1" d="M42,37c0,2.762-2.238,5-5,5H11c-2.761,0-5-2.238-5-5V11c0-2.762,2.239-5,5-5h26c2.762,0,5,2.238,5,5V37z"></path><path fill="#FFF" d="M12 19H17V36H12zM14.485 17h-.028C12.965 17 12 15.888 12 14.499 12 13.08 12.995 12 14.514 12c1.521 0 2.458 1.08 2.486 2.499C17 15.887 16.035 17 14.485 17zM36 36h-5v-9.099c0-2.198-1.225-3.698-3.192-3.698-1.501 0-2.313 1.012-2.707 1.99C24.957 25.543 25 26.511 25 27v9h-5V19h5v2.616C25.721 20.5 26.85 19 29.738 19c3.578 0 6.261 2.25 6.261 7.274L36 36 36 36z"></path>
             </svg>
         </a>
-        <a href="/feed.rss">
-          <svg enable-background="new 0 0 24 24" height="512" viewBox="0 0 24 24" width="512" xmlns="http://www.w3.org/2000/svg"><path fill="currentcolor" d="m3.966 23.975c1.97 0 3.963-1.353 3.963-3.939s-1.995-3.939-3.966-3.939c-2.12-.001-3.963 1.483-3.963 3.939 0 2.412 1.802 3.939 3.966 3.939zm-.003-6.379c1.228 0 2.466.754 2.466 2.439s-1.236 2.439-2.463 2.439c-1.228 0-2.466-.754-2.466-2.439 0-1.538 1.082-2.439 2.463-2.439z"/><path fill="currentcolor" d="m10.714 23.25c0 .414.336.75.75.75h4.285c.414 0 .75-.336.75-.75 0-8.684-7.065-15.75-15.749-15.75-.415 0-.75.337-.75.75v4.287c0 .414.336.75.75.75 5.494 0 9.964 4.469 9.964 9.963zm-9.214-14.23c7.261.379 13.101 6.22 13.479 13.48h-2.79c-.371-5.725-4.964-10.318-10.689-10.689z"/><path fill="currentcolor" d="m24 23.25c0-12.82-10.43-23.25-23.25-23.25-.414 0-.75.336-.75.75v4.286c0 .414.336.75.75.75 9.631 0 17.466 7.834 17.466 17.464 0 .414.336.75.75.75h4.284c.414 0 .75-.336.75-.75zm-4.299-.75c-.386-9.862-8.338-17.815-18.201-18.2v-2.787c11.398.388 20.599 9.589 20.987 20.987z"/></svg>
-          <span class="a11y-hidden">RSS</span>
-        </a>
+       
       </nav>
       <div>
         <time datetime="2009">2009</time>&mdash;<time datetime="2025">2025</time>
